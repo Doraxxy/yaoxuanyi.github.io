@@ -12,18 +12,20 @@ body {
 }
 
 img {
-	max-width: 100%;
+	max-width: 65%;
+	
 }
 
 .Header {
-	text-align: center;
-	border-bottom: 8px double #f9f9f9;
+	text-align: right;
+	border-bottom: 8px double #F0F8FF;
 	margin-bottom: 2rem;
 	padding-bottom: 1rem;
 }
 
 .Strap {
-	font-size: 1rem;
+	font-size: 2.2rem;
+
 }
 
 
@@ -31,38 +33,20 @@ img {
 	position: relative;
 }
 
-.MoneyShotImg {
-	border: 6px solid #e8cfa9;
-	border-radius: 4px;
-}
+
 
 .LogoWrapper {
 	display: block;
-}
-
-.ImageCaption {
-	font-size: .75rem;
-	position: absolute;
-	bottom: .5rem;
-	right: 1rem;
+	border-bottom: 8px ;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
 }
 
 .IntroText {
-	font-size: 1.8rem;
-	font-style: italic;
+	font-size: 2rem;
+	font-style:Microsoft JhengHei Light;
 }
 
-.MethodWrapper li {
-	padding: .4rem 0;
-}
-
-.MethodWrapper li:after {
-	content: "✼";
-	display: block;
-	text-align: center;
-	margin: 1rem 0 .5rem 0;
-	color: #eee;
-}
 
 @media screen and (min-width: 50rem) {
 	body {
@@ -75,6 +59,8 @@ img {
 		display: table;
 		table-layout: fixed;
 		width: 100%;
+		text-align: center;
+		
 	}
 
 	.MoneyShot,
@@ -87,22 +73,18 @@ img {
 
 	.IntroText {
 		padding: .5rem;
-		font-size: 2.5rem;
+		font-size: 1.6rem;
 		text-align: left;
 		position: relative;
-	}
-
-	.Ingredients {
-		font-size: .9rem;
-		float: right;
 		padding: 1rem;
 		margin: 0 0 .5rem 1rem;
 		border-radius: 3px;
-		background-color: #ffffdf;
-		border: 2px solid #e8cfa9;
+		background-color: #F0F8FF;
+		border: 2px solid #4169E1;
 	}
 
-	.Ingredients h3 {
-		margin: 0;
+	.Ingredients {
+		text-align: center;
 	}
+
 }
